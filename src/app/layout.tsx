@@ -47,6 +47,15 @@ export default function RootLayout({
             color: '#ffffff'
           }
         }}/>
+        <div className="flex">
+          <div className="bg-black text-gray-200 max-w-[250px] h-screen overflow-y-auto md:min-w-[220px]">
+            <Sidebar />
+          </div>
+          <div className="bg-[#212121] flex-1 h-s overflow-hidden relative text-gray-200">
+            <Header />
+            <div>{children}</div>
+          </div>
+        </div>
       </body>
     </html>
   );

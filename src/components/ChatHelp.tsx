@@ -22,5 +22,3 @@ const ChatHelp = () => {
     </div>
   );
 };
-
-export default ChatHelp;
